@@ -224,3 +224,40 @@ position: relative;
     top: -35px;
     left: 60px;
 }
+
+/* BARRA DE NAVEGAÇAO */
+.barra-navegacao{
+    background-color: #fff !important;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+    
+}
+
+.grudar-topo{
+    position: sticky;
+    top: 50px;
+}
+
+.fa-facebook-official{
+ font-size: 50px;
+ color: #1771E6;
+}
+
+.pesquisa-topo{
+    border-radius: 50%;
+    border: none;
+    width: 45px !important;
+    height: 45px !important;
+}
+
+.f-50{
+    font-size: 30px !important;
+    color: gray;
+    line-height: 30px;
+}
+
+.f-40{
+    font-size: 30px !important;
+    color: gray;
+    line-height: 30px;
+    font-weight: normal !important;
+}
