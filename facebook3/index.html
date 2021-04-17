@@ -12,7 +12,7 @@
     <link rel="icon" href="./ims/favs/face.png">
     
     <link rel="stylesheet" href="custom.css">
-    <title>facebook</title>
+    <title>Facebook do Elson </title>
   </head>
 
 
@@ -93,8 +93,33 @@
 
     <!-- BANNER PRINCIPAL -->
     <div class="row justify-content-center ">
-      <div class="col-md-12 text-center align-items-center  rounded bg-dark-100" id="main-banner">
+      <div class="col-md-12 text-center align-items-center  rounded bg-dark-100 position-relative" id="main-banner">
         <img src="./ims/bg.jpg" width="90%" class="rounded">
+
+        <!-- <button class="btn  btn-editar-capa " id="editor-imagem" data-bs-toggle="dropdown">
+          <i class="fa fa-camera mr-2"></i>Editar foto de capa
+        </button> -->
+
+        <div class="dropdown editor-capa">
+          <button class="btn btn-secondary " type="button" id="dropdown-capa" data-toggle="dropdown" aria-expanded="true" >
+            <i class="fa fa-camera mr-2"></i>Editar foto de capa
+          </button>
+          <div class="dropdown-menu" >
+            <a class="dropdown-item" href="#">
+              <label for="upload-photo"><i class="fa fa-picture-o" ></i> Selecionar foto</label>
+                <input type="file"  name="aquivo" id="arquivo">
+              
+              
+            </a>
+            <a class="dropdown-item" href="#"><i class="fa fa-upload" aria-hidden="true"></i> Upload foto</a>
+            <a class="dropdown-item" href="#"><i class="fa fa-arrows" aria-hidden="true"></i> Reposicionar</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#"><i class="fa fa-arrows" aria-hidden="true"></i> Remover</a>
+          </div>
+        </div>
+     
+        
+        
       </div>
     </div>
     <!-- BANNER PRINCIAL FIM -->
@@ -149,6 +174,7 @@
   <!--  //////// HERO SECTION FIM /////////-->
 
 
+
   <!-- AREA PREINCIPAL -->
   <section class=" py-5 c-light mt-4 principal">
       <div class="container ">
@@ -175,6 +201,125 @@
                 <button class="btn gray btn-block">Editar destaques</button>
           </div>
         </div>
+        <!-- cartao de amigos -->
+        <div class="card c-card card-grid-amigos">
+         <div class="card-header d-flex justify-content-between">
+           <div class="amigos">
+             <h5 class="card-title">Amigos</h5>
+             <p>250 amigos</p>
+           </div>
+           <a href="#" class="align-self-start">Ver todos os amigos</a>
+         </div>
+         <div class="card-body">
+           <!-- fila 1-->
+           <div class="row">
+             <div class="col d-flex justify-content-between">
+              
+               <!-- amigo 2 -->
+               <div class="card card-amigo">
+                <div class="amigo-img-holder ">
+                  <img src="./ims/amigos/cristiane.jpg" >
+                </div>
+                <div class="card-footer">
+                  <p>Cristiane</p>
+                </div>
+              </div>
+              <!-- amigo -->
+              <div class="card card-amigo">
+                <div class="amigo-img-holder ">
+                  <img src="./ims/amigos/cristina-irma.jpg" >
+                </div>
+                <div class="card-footer">
+                  <p>Cristina Irmã</p>
+                </div>
+              </div>
+               <!-- amigo 3 -->
+               <div class="card card-amigo">
+                <div class="amigo-img-holder ">
+                  <img src="./ims/amigos/namorada.jpg" >
+                </div>
+                <div class="card-footer">
+                  <p>Cristian Namorada</p>
+                </div>
+              </div>
+             </div>
+           </div>
+           <!-- fila2 -->
+           <div class="row">
+            <div class="col d-flex justify-content-between">
+              <!-- amigo1 -->
+              <div class="card card-amigo">
+                <div class="amigo-img-holder ">
+                  <img src="./ims/amigos/maikao.jpg" >
+                </div>
+                <div class="card-footer">
+                  <p>Michael Lesley Filho</p>
+                </div>
+              </div>
+              <!-- amigo 2 -->
+              <div class="card card-amigo">
+               <div class="amigo-img-holder ">
+                 <img src="./ims/amigos/cleidiane.jpg" >
+               </div>
+               <div class="card-footer">
+                 <p>Cleidiane Irma</p>
+               </div>
+             </div>
+              <!-- amigo 3 -->
+              <div class="card card-amigo">
+               <div class="amigo-img-holder ">
+                 <img src="./ims/amigos/nadia.jpg" >
+               </div>
+               <div class="card-footer">
+                 <p>Nádia</p>
+               </div>
+             </div>
+            </div>
+          </div>
+          <!-- fila 3 -->
+          <div class="row">
+            <div class="col d-flex justify-content-between">
+              <!-- amigo1 -->
+           
+              <!-- amigo 2 -->
+            
+              <!-- amigo 3 -->
+              <div class="card card-amigo">
+               <div class="amigo-img-holder ">
+                 <img src="./ims/amigos/wellington.jpg" >
+               </div>
+               <div class="card-footer">
+                 <p>Wellington Irmão</p>
+               </div>
+             </div>
+             <!-- AMIGOS PAIS -->
+              <!-- amigo1 -->
+              <div class="card card-amigo">
+                <div class="amigo-img-holder ">
+                  <img src="./ims/amigos/papis.jpg" >
+                </div>
+                <div class="card-footer">
+                  <p>Bastião papis</p>
+                </div>
+              </div>
+              <!-- mamais -->
+              <div class="card card-amigo">
+               <div class="amigo-img-holder ">
+                 <img src="./ims/amigos/mamis.jpg" >
+               </div>
+               <div class="card-footer">
+                 <p>Maria das Neves mamis</p>
+               </div>
+             </div>
+            </div>
+          </div>
+         </div>
+        
+        </div>
+
+        <!-- cartao de amigos -->
+
+
         <!-- cartao relacionanamento -->
         <div class="card c-card grudar-topo">
           <div class="card-body">
@@ -182,7 +327,7 @@
               <h3>Eventos da vida</h3>
               <h5> <a href="#">Ver tudo</a></h5>
             </div>
-            <!-- eu e minha principa -->
+           
             <div class="card card-love col-8 ">
               <div class="juntar">
                <img src="./ims/elson.png" width="100" height="100" class="ele">
@@ -191,19 +336,16 @@
               <div class="juntar-coracao">
                 <i class="fa fa-heart coracao" aria-hidden="true"></i>
               </div>
-              
-              <!-- data relacao -->
               <div class="data row mb-5">
                   <div class="col-6 col-lg-10 mt-5 mx-4 mb-5">
                   <h5>Numa relacão com Cristina Martins</h5>
                   </div>
               </div>
-
             </div>
             
           </div>
         </div>
-        <!-- cartao relacionamento fim -->
+       <!-- AREA RELACIONAMENTO FIM -->
         </div>
        <!-- //////////////  COLUNA ESQUERDA FIM ///////////////////// -->
 
@@ -469,8 +611,8 @@
       <!-- ///////////////////////////////////             RODAPÉ    ////////////////////// -->
     <footer>
       <div class="container">
-        <div class="row mx-auto">
-          <div class="col-md-6 mr-auto fs-1">
+        <div class="row mx-auto pb-3">
+          <div class="col-md-6  fs-1">
             <p> <a href="#">Privacidade</a> 
               <a href="#">Termos</a> 
               <a href="#">Publicação</a> 
@@ -478,6 +620,22 @@
               <a href="#">Cookies</a>
               <a href="#">Mais</a></p>
              <small>Facebook &copy; 2021</small>
+          </div>
+          <!-- coluna direita -->
+          <div class="col-md-6  ">
+            <div class="convite">
+              <h5>ME ENCONTRE</h5>
+            <a class="btn btn-danger text-white" target="_blank" href="https://www.youtube.com/channel/UCl5-W0A8tE3EucM7E_yS62A?sub_confirmation=1">
+              <i class="fa fa-youtube-play" aria-hidden="true"></i>  Curso HTML 
+            </a>
+            <a class="btn btn-secondary  mr-2" target="_blank" href="https://api.whatsapp.com/send?phone=5586988042064&text=Ol%C3%A1%20Elson%20..">
+              <i class="fa fa-whatsapp" aria-hidden="true"></i> Fale comigo
+            </a>
+            <a class="btn btn-secondary text-white mr-2" target="_blank" href="https://www.linkedin.com/in/elson-mendes-3193611b1/">
+              <i class="fa fa-linkedin-square mr-2" aria-hidden="true"></i>LikedIn
+            </a>
+            </div>
+            
           </div>
         </div>
       </div>
