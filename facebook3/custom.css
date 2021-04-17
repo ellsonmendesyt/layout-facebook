@@ -38,6 +38,22 @@ body{
 }
 
 
+
+.btn-back{
+    border-radius: 50%;
+    background-color: #e4e6eb;
+    width: 40px;
+    height: 43px;
+    text-align: center;
+    transition: all .3s;
+}
+
+
+
+.btn-back:hover{
+    background-color:lightgray;
+}
+
 .stripe{
     padding: 15px 0px;
     border-top: 1px solid #999;
@@ -259,7 +275,9 @@ position: relative;
 .grudar-topo{
     position: sticky;
     top: 50px;
-}lçp
+}
+
+
 
 .fa-facebook-official{
  font-size: 50px;
@@ -308,6 +326,13 @@ nav .form-control{
 
 }
 
+
+
+
+
+
+
+
 .f-50{
     font-size: 30px !important;
     color: gray;
@@ -331,8 +356,36 @@ nav .form-control{
     padding:5px !important;
 }
 
-.nav-item:hover{
+
+/* AQUI */
+
+.nav-item.back:hover{
     text-align: center;
     padding: auto;
     background-color: #F0F2F5;
+}
+
+
+
+/* RODAPÉ */
+
+footer p{
+    font-size: 13px;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+footer small{
+    font-size: 12px;
+    margin-top: -1px;
+    color: gray;
+    padding-top: 0px !important;
+}
+footer a{
+    text-decoration: none;
+    color: gray;
+}
+
+footer a:hover{
+ text-decoration: none;
+ color: gray;
 }
